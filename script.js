@@ -60,3 +60,14 @@ let numberF = 4;
 let moduloResult = numberE % numberF;
 console.log (`Rezultatul impartirii lui ${numberE} la ${numberF} rezulta ${moduloResult}`);
 
+// cum aflam
+
+console.log (Number_MAX_SAFE_INTEGER);
+
+console.log(Number_MIN_SAFE_INTEGER);
+
+// Cum aflam numere de tip BigInt
+
+let bigIntNumber = 123456789n;
+console.log (`Right value is ${bigIntNumber}`);
+
