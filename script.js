@@ -38,3 +38,10 @@ console.log(`Acum ${years} aveam varsta de ${pastAge}`);
 console.log(`Acum ${years} aveam varsta de ${age-years}`);
 
 
+// Multiplication *
+
+let numberA = 5;
+let numberb = 10;
+let multplyResult = numberA * numberb;
+console.log (${numberA} inmultit cu ${numberb} da ${multplyResult});
+
