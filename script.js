@@ -102,3 +102,11 @@ let lastName = "Chifor";
 let separator = " ";
 let fullName = firstName + separator + lastName;
 console.log (`Numele complet este ${fullName}`);
+
+// verificare numar par/ impar
+
+let checkedNumber = 21;
+
+let reminder = checkedNumber % 2;
+let isEven = reminder == 0;
+console.log (`Number ${checkedNumber} is even: ${isEven}`);
