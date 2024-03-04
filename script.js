@@ -43,5 +43,12 @@ console.log(`Acum ${years} aveam varsta de ${age-years}`);
 let numberA = 5;
 let numberb = 10;
 let multplyResult = numberA * numberb;
-console.log (${numberA} inmultit cu ${numberb} da ${multplyResult});
+console.log (`${numberA} inmultit cu ${numberb} da ${multplyResult}`);
+
+//Division
+
+let numberC = 55;
+let numberD = 10;
+let divisionResult = numberC/ numberD;
+console.log (`${numberC} impartit la ${numberD} rezulta ${divisionResult}`);
 
