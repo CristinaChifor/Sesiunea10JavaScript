@@ -52,3 +52,11 @@ let numberD = 10;
 let divisionResult = numberC/ numberD;
 console.log (`${numberC} impartit la ${numberD} rezulta ${divisionResult}`);
 
+
+// restul impartirii
+
+let numberE = 18;
+let numberF = 4;
+let moduloResult = numberE % numberF;
+console.log (`Rezultatul impartirii lui ${numberE} la ${numberF} rezulta ${moduloResult}`);
+
