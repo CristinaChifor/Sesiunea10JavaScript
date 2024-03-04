@@ -62,12 +62,28 @@ console.log (`Rezultatul impartirii lui ${numberE} la ${numberF} rezulta ${modul
 
 // cum aflam
 
-console.log (Number_MAX_SAFE_INTEGER);
+//console.log (Number_MAX_SAFE_INTEGER);
 
-console.log(Number_MIN_SAFE_INTEGER);
+//console.log(Number_MIN_SAFE_INTEGER);
 
 // Cum aflam numere de tip BigInt
 
 let bigIntNumber = 123456789n;
 console.log (`Right value is ${bigIntNumber}`);
 
+//String Operations
+// index-ul porneste de la 0
+
+const myName= "Cristina Chifor";
+
+// afisarea unui caracter de la o pozitie
+// primul caracter
+
+const firstCharInName = myName [0];
+console.log (`Primul caracter din sirul ${myName} este ${firstCharInName}`);
+
+
+//lungimea sirului
+
+const myNameLength = myName.length;
+console.log (`Lungimea sirului ${myName} este ${myNameLength}`);
