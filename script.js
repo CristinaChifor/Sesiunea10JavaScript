@@ -5,3 +5,10 @@ console.log (years);
 
 age = 36;
 console.log (age);
+
+let username = "Cristina";
+console.log (" name:");
+console.log (username);
+
+
+
