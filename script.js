@@ -1,5 +1,5 @@
 let age = 30;
-let years = 5;
+let years = 10;
 console.log (age);
 console.log (years);
 
@@ -30,7 +30,11 @@ console.log (`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${s
 // trecem let o singura data cand def prima data variabila.
 // nu trebuie trecut decat o singura data.
 
+// Substraction -
 
+let pastAge = age - years;
+console.log(`Acum ${years} aveam varsta de ${pastAge}`);
 
+console.log(`Acum ${years} aveam varsta de ${age-years}`);
 
 
