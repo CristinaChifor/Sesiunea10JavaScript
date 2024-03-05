@@ -79,3 +79,21 @@ console.log(Number.MIN_SAFE_INTEGER);
 
 let bigIntNumber = 123456789n;
 console.log(`BigInt value is ${bigIntNumber}`);
+
+// String Operations
+// ne putem raporta la un string ca si un sir de caractere
+// string-urile au INDEX; Index-ul incepe de la 0 ex: Prima pozitoe dintr-un sir de caractere are indez-ul 0
+
+const myFullName = "Cristina Chifor";
+
+// afisarea unui caracter de la o pozitie
+// primul caracter/ al doilea caracter
+
+
+const firstCharInName = myFullName [0];
+console.log(`Primul caracter din sirul '${myFullName}' este ${firstCharInName}`);
+
+const secondCharInName = myFullName [1];
+console.log(`Al doilea caracter din sirul '${myFullName}' este ${secondCharInName}`);
+
+
