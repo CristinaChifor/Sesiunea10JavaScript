@@ -60,10 +60,22 @@ let numberD = 10;
 let divisionResults= numberC / numberD;
 console.log(`${numberC} impartit la ${numberD} rezulta ${divisionResults}`);
 
-
 // Restul impartirii % Modulo
 
 let numberE = 15;
 let numberF = 4;
 let moduloResults = numberE % numberF;
 console.log(`Restul impartirii lui ${numberE} la ${numberF} este egal cu ${moduloResults}.`);
+
+// cum aflam cel mai mare numar de tip NUMBER
+
+console.log(Number.MAX_SAFE_INTEGER);
+
+// Cum aflam cel mai mic numar de tip NUMBER
+
+console.log(Number.MIN_SAFE_INTEGER);
+
+// numere de tip BigInt
+
+let bigIntNumber = 123456789n;
+console.log(`BigInt value is ${bigIntNumber}`);
