@@ -137,4 +137,4 @@ let moduloResult = checkedNumber % 2;
 // operatori de comparatie ==
 
 let isEven = moduloResult == 0;
-console.log(`Number ${checkedNumber} is even ${isEven}`);
+console.log(`Number ${checkedNumber} is even: ${isEven}`);
