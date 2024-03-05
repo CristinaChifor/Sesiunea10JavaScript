@@ -58,4 +58,12 @@ console.log(`${numberA} inmultit cu ${numberB} este egal cu ${multiplyResults}.`
 let numberC = 25;
 let numberD = 10;
 let divisionResults= numberC / numberD;
-let console.log(`${numberC} imparit la ${numberD} rezulta ${divisionResults}`);
+console.log(`${numberC} impartit la ${numberD} rezulta ${divisionResults}`);
+
+
+// Restul impartirii % Modulo
+
+let numberE = 15;
+let numberF = 4;
+let moduloResults = numberE % numberF;
+console.log(`Restul impartirii lui ${numberE} la ${numberF} este egal cu ${moduloResults}.`);
