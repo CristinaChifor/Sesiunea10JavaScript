@@ -101,3 +101,31 @@ console.log(`Al doilea caracter din sirul '${myFullName}' este ${secondCharInNam
 const myFullNameLength = myFullName.length;
 console.log(`Lungimea sirului '${myFullName}' este ${myFullNameLength} `);
 
+// ultimul caracter din sir
+// se calc length -1
+
+let lastCharIndex= myFullNameLength -1;
+let lastChar = myFullName[lastCharIndex];
+console.log(`Ultimul caracter din sir este ${lastChar}`);
+
+// concatenare de stringuri
+
+let firstName = "Cristina";
+let secondName = "Chifor";
+let separator = ' ';
+//let fullName = firstName + separator +secondName;
+let allName = firstName + ' ' +secondName;
+console.log (`My fullname is ${allName}`);
+
+// De exersat acasa:
+
+let upperCaseName = allName.toUpperCase ();
+console.log(`Full name in uppercase is ${allName}`); // de verificat!
+
+let lowerCaseName = allName.toLowerCase ();
+console.log(`My fullname in lowercase is ${allName}`); // de verificat!
+
+let substringResult = allName.substring (1, 4);
+console.log(`Caracterle de la 1, 4 sunt ${substringResult}`); //REZULTAT CORECT
+
+
