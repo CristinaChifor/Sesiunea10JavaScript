@@ -2,7 +2,7 @@ let age = 30;
 console.log(age);
 console.log(`I am ${age} years old.`);
 
-let years = 5;
+let years = 10;
 console.log(years);
 
 // let defineste o variabila in cazul de fata age;
@@ -38,5 +38,12 @@ console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${su
 // ii este luat locul de catre noua valoare
 
 // string interpolation se foloseste pentru a crea texte mai interpretative
+
+// Substraction -
+
+let pastAge = age - years;
+console.log(`Acum ${years} ani aveam varsta de ${pastAge}.`);
+console.log(`Acum ${years} ani aveam varsta de ${age - years}.`);
+// in interpolare putem foloso si expresii ca in aczul de mai sus nu doar variabile
 
 
