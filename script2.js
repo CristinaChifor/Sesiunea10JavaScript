@@ -10,10 +10,17 @@ console.log(years);
 age= 36;
 console.log(age);
 
-let username = "Cristina";
-console.log(`My name is ${username}`);
-console.log('username: ');
-console.log(usernamename);
+const piNumber = 3.14;
+console.log(piNumber);
+//piNumber = 4; mesaj de eroare in consola deoarece am atribuit deja o val const piNumber
+// valorile pe care le atribuim in constante nu pot fi schimbate
+
+let userName = "Cristina";
+console.log(`My name is ${userName}`);
+console.log('userName: ');
+console.log(userName);
 
 // string-ul este o valoare absoluta.
 
+// Tipuri de date numerice: Number
+// Operatori date nmerice
