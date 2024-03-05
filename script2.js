@@ -128,4 +128,13 @@ console.log(`My fullname in lowercase is ${allName}`); // de verificat!
 let substringResult = allName.substring (1, 4);
 console.log(`Caracterle de la 1, 4 sunt ${substringResult}`); //REZULTAT CORECT
 
+// verificare numar impar/ par
 
+let checkedNumber= 21;
+
+let moduloResult = checkedNumber % 2;
+
+// operatori de comparatie ==
+
+let isEven = moduloResult == 0;
+console.log(`Number ${checkedNumber} is even ${isEven}`);
