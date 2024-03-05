@@ -52,3 +52,10 @@ let numberA = 5;
 let numberB = 10;
 let multiplyResults = numberA * numberB;
 console.log(`${numberA} inmultit cu ${numberB} este egal cu ${multiplyResults}.`);
+
+// Division /
+
+let numberC = 25;
+let numberD = 10;
+let divisionResults= numberC / numberD;
+let console.log(`${numberC} imparit la ${numberD} rezulta ${divisionResults}`);
