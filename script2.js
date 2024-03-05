@@ -44,6 +44,11 @@ console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${su
 let pastAge = age - years;
 console.log(`Acum ${years} ani aveam varsta de ${pastAge}.`);
 console.log(`Acum ${years} ani aveam varsta de ${age - years}.`);
-// in interpolare putem foloso si expresii ca in aczul de mai sus nu doar variabile
+// in interpolare putem folosi si expresii ca in aczul de mai sus nu doar variabile
 
+// Multiplication *
 
+let numberA = 5;
+let numberB = 10;
+let multiplyResults = numberA * numberB;
+console.log(`${numberA} inmultit cu ${numberB} este egal cu ${multiplyResults}.`);
