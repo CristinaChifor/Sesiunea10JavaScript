@@ -138,3 +138,11 @@ let moduloResult = checkedNumber % 2;
 
 let isEven = moduloResult == 0;
 console.log(`Number ${checkedNumber} is even: ${isEven}`);
+
+
+// adaugare la un numar
+
+let x = 10;
+console.log(`x =, 1`);
+
+
