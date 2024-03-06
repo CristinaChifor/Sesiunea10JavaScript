@@ -143,6 +143,92 @@ console.log(`Number ${checkedNumber} is even: ${isEven}`);
 // adaugare la un numar
 
 let x = 10;
-console.log(`x =, 1`);
+console.log(`x =`, 1);
 
+x++;
+console.log(`x =`, 1);
 
+// Operatori de comparatie
+// = operator de atribuire
+// == operator de comparatie
+
+let value1 = 22;
+let value2 = 22;
+let value3 = 23;
+let value4 = "22";
+
+let firstCompareResult = value1 == value2;
+console.log(`${value1} == ${value2} => ${firstCompareResult}`);
+
+let secondCompareResult = value1 == value3;
+console.log(`${value1} == ${value3} => ${secondCompareResult}`);
+
+let stringAndNumberEquality = value1 == value4;
+console.log(`${value1} == ${value4} => ${stringAndNumberEquality}`);
+
+// cand se comapara un string cu un number le face pe amandoua string
+
+// comparatorul de egalitate stricta ===
+// verifica si val si tipul de date
+
+let strictEqual = value1 === value4;
+
+console.log(`${value1} === ${value4} => ${strictEqual}`);
+// rez este false deoarece nu avem acelasi tip de date: val 1 = number si val 4 este string
+
+let strictEqualComparison = value1 === value2;
+console.log(`${value1} === ${value2} => ${strictEqualComparison}`);
+// rez este true deoarece avem acelasi tip de date: number
+
+// comparatorul  mai mic() mai mic sau egal <=
+
+let num1 = 5;
+let num2 = 6;
+let num3 = 5;
+let lessThanComparison = num1 < num2;
+console.log(`${num1} < ${num2} => ${lessThanComparison}`);
+
+let lessThanComparison2 = num2 < num1;
+console.log(`${num2} < ${num1} => ${lessThanComparison2}`);
+
+let lessOrEqualComparison = num1 <= num2;
+console.log(`${num1} < ${num2} => ${lessOrEqualComparison}`);
+
+// Operatori logici
+// se fol pt date de tip boolean
+
+let trueValue = true;
+let falseValue = false;
+
+// si logic (&&)
+
+let logicalEndResult = trueValue && falseValue;
+console.log(`${trueValue} && ${falseValue} => ${logicalEndResult}`);
+// cand avem op si intre operatii booleane dif
+
+logicalEndResult = falseValue && falseValue;
+console.log(`${falseValue} && ${falseValue} => ${logicalEndResult}`);
+
+logicalEndResult = trueValue && trueValue;
+console.log(`${trueValue} && ${trueValue} => ${logicalEndResult}`);
+
+// sau logic (||)
+
+let logicalResult = trueValue || falseValue;
+console.log(`${trueValue} || ${falseValue} => ${logicalResult}`);
+
+logicalResult =  falseValue || falseValue;
+console.log(`${falseValue} || ${falseValue} => ${logicalResult}`);
+
+logicalResult =  trueValue || trueValue;
+console.log(`${trueValue} || ${trueValue} => ${logicalResult}`);
+
+// true= daca macar unul din cei doi operanti este true
+
+// negare logica not oprator !
+
+let notTrueValue = !trueValue;
+console.log(`!${trueValue} => ${notTrueValue}`);
+
+let notFalseValue = !falseValue;
+console.log(`!${!falseValue} => ${notFalseValue}`);
