@@ -97,7 +97,7 @@ console.log (`Ultimul caracter din sir este ${lastChar}`);
 
 // Concatenare de stringuri
 
-let firstName = "Cristina";
+let firstName = "Cristina".endsWith("a");
 let lastName = "Chifor";
 let separator = " ";
 let fullName = firstName + separator + lastName;
@@ -110,3 +110,30 @@ let checkedNumber = 21;
 let reminder = checkedNumber % 2;
 let isEven = reminder == 0;
 console.log (`Number ${checkedNumber} is even: ${isEven}`);
+
+// demo continuare sesiunea 10
+// string precizare daca punem punct dupa un string putem vedea ce alte metode se mai pot seta
+
+//firstName = "Cristiana".endsWith(`a`);
+
+// Date de tip Boolean ( True/ False)
+
+// variabilele se declara
+
+let isAdult = true;
+console.log(`isAdult= ${isAdult}`);
+
+let isOld = false;
+console.log(`isOld= ${isOld}`);
+
+// Date NULL si UNDEFINED
+// null marcheaza lipsa referintei catre o alta valoare
+// intr-o varaibila putem avea val null doar daca este setata explicit
+
+let nullValue = null;
+console.log(`nullValue = ${nullValue}`);
+
+// undefined - var care au fost definte dar nu si initializate
+// in exemplul de mai jos am def varibila dar nu am initia;izat nicio valoare
+let notInitialised;
+console.log(`notInitialised = ${notInitialised}`);
