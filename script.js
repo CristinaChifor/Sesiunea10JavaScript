@@ -141,6 +141,7 @@ console.log(`notInitialised = ${notInitialised}`);
 // o variabila este un conatiner in care tinem mai multe tipuri de date
 
 // Operatori de atribuire
+// atribuie o val unei variabile
 
 let x = 5;
 //x += 3;
@@ -159,4 +160,34 @@ x /= 2;
 console.log(x);
 // x = x /2; x = 5 / 2 = 2.5
 
+// adaugare +1 la un numar - incrementare
 
+let y = 10;
+console.log(`y=`, y);
+
+// sintaxa ++ adauga 1
+y++;
+console.log(`y=`, y);
+
+// = este operator de atribuire adica atribuim o val dupa semnul =
+
+// Operatori de comparatie
+
+// Comparatorul de egalitate ==
+// rezultatul compararii variabilelor
+
+let value1 = 22;
+let value2 = 22;
+let value3 = 23;
+let value4= "22.0";
+
+let firstComparison = value1 == value2;
+console.log(`${value1} == ${value2} => ${firstComparison}`);
+
+let secondComparison = value1 == value3;
+console.log(`${value1} == ${value3} => ${secondComparison}`);
+
+let thirdComparison = value1 == value4;
+console.log(`${value1} == ${value4} => ${thirdComparison}`);
+// o comp intre un numar si un string
+// cand folosim operatorul == chiar daca datele sunt de tip deferit number si string le face pe amandoua stringuri
