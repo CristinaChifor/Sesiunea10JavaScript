@@ -137,3 +137,26 @@ console.log(`nullValue = ${nullValue}`);
 // in exemplul de mai jos am def varibila dar nu am initia;izat nicio valoare
 let notInitialised;
 console.log(`notInitialised = ${notInitialised}`);
+
+// o variabila este un conatiner in care tinem mai multe tipuri de date
+
+// Operatori de atribuire
+
+let x = 5;
+//x += 3;
+//console.log(x);
+// x = x + 3; x = 5 + 3 = 8
+
+//x -= 2;
+//console.log(x);
+// x = x -2; x = 5-2 =3;
+
+//x *= 3;
+//console.log(x);
+// x= x *3; x= 5*3 =15
+
+x /= 2;
+console.log(x);
+// x = x /2; x = 5 / 2 = 2.5
+
+
