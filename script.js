@@ -233,5 +233,56 @@ console.log(`${z} >= ${w} => ${moreEqualComparison}`);
 let moreOrEqualComparison2 = z >= q;
 console.log(`${z} >= ${q} => ${moreOrEqualComparison2}`);
 
+// Operatori logici
+// operatii intre date de tip boolean
+
+let trueValue = true;
+let falseValue = false;
+
+// operatorul si logic &&
+
+let logicalAndResult = trueValue && falseValue;
+console.log(`${trueValue} && ${falseValue} => ${logicalAndResult}`);
+// adevarat && false => false
+// si intre operatii booleane dif => false
+
+let logicalAndResult2 = falseValue && falseValue;
+console.log(`${falseValue} && ${falseValue} => ${logicalAndResult2}`);
+// false && false => false
+
+let logicalAndResult3 = trueValue && trueValue;
+console.log(`${trueValue} && ${trueValue} => ${logicalAndResult3}`);
+// true && true => true
+// doar daca ambii operatori is true => true
+
+// operatorul sau logic ||
+
+let logicalOrResult= trueValue || falseValue;
+console.log(`${trueValue} || ${falseValue} => ${logicalOrResult}`);
+// true || false => true
+// cel putin unul dintre operanti este true => true
+
+let logicalOrResult2 = falseValue || falseValue;
+console.log(`${falseValue} || ${falseValue} => ${logicalOrResult2}`);
+// false || false => false
+// ambii operanti sunt false => false
+
+let logicalOrResult3= trueValue || trueValue;
+console.log(`${trueValue} || ${trueValue} => ${logicalOrResult3}`);
+// true || true => true
+
+// negarea logica ! not operator
+// da opusul valorii booleane
+
+let notTrueValue= !trueValue;
+console.log(`${trueValue} => ${notTrueValue}`);
+
+let notFlaseValue= !falseValue;
+console.log(`${falseValue} => ${notFlaseValue}`);
+
+
+
+
+
 
 
