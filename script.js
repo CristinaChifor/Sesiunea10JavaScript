@@ -179,7 +179,7 @@ console.log(`y=`, y);
 let value1 = 22;
 let value2 = 22;
 let value3 = 23;
-let value4= "22.0";
+let value4= "22";
 
 let firstComparison = value1 == value2;
 console.log(`${value1} == ${value2} => ${firstComparison}`);
@@ -191,3 +191,47 @@ let thirdComparison = value1 == value4;
 console.log(`${value1} == ${value4} => ${thirdComparison}`);
 // o comp intre un numar si un string
 // cand folosim operatorul == chiar daca datele sunt de tip deferit number si string le face pe amandoua stringuri
+
+// comparatori de egalitate stricta ===
+// verifica val si tipul de date al valorii
+
+let strictequalcompare= value1 === value4;
+console.log(`${value1} === ${value4} => ${strictequalcompare}`);
+
+let secondstrictequalcompare = value1 === value2;
+console.log(`${value1} === ${value2} => ${secondstrictequalcompare}`);
+
+// comparatori mai mic (<); mai mic sau egal (<=)
+
+let z = 5;
+let w = 6
+let q = 5;
+
+let lessThanComparison = z < w;
+console.log(`${z} < ${w} => ${lessThanComparison}`);
+
+let lessThanComparison2 = w < z;
+console.log(`${w} < ${z} => ${lessThanComparison2}`);
+
+let lessEqualComparison = z <= w;
+console.log(`${z} <= ${w} => ${lessEqualComparison}`);
+
+let lessOrEqualComparison2 = z <= q;
+console.log(`${z} <= ${q} => ${lessOrEqualComparison2}`);
+
+// comaparatorul mai mare (>); mai mare sau egal (>=)
+
+let moreThanComparison = z > w;
+console.log(`${z} > ${w} => ${moreThanComparison}`);
+
+let moreThanComparison2 = w > z;
+console.log(`${w} > ${z} => ${moreThanComparison2}`);
+
+let moreEqualComparison = z >= w;
+console.log(`${z} >= ${w} => ${moreEqualComparison}`);
+
+let moreOrEqualComparison2 = z >= q;
+console.log(`${z} >= ${q} => ${moreOrEqualComparison2}`);
+
+
+
